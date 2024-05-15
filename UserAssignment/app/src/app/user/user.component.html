@@ -1,0 +1,28 @@
+<form #myFormName="ngForm" (ngSubmit)="getUser(myFormName)" >  
+    <br>    
+      <h2>Login As User</h2>
+
+      <label for="userId">number</label><br>
+   <input type="number"  placeholder="number" class="form-control" name="userId" ngModel>
+   <br>
+   <label for="userNm">Username</label><br>
+   <input type="text"  placeholder="username" class="form-control" name="userNm" ngModel>
+   <br>
+
+   <label for="password">password</label><br>
+   <input type="password"  placeholder="password" class="form-control" name="password" ngModel>
+   <br>
+
+   <label for="role">role</label><br>
+   <input type="text"  placeholder="role" class="form-control" name="role" ngModel>
+   <br>
+   
+
+  
+  <input  type="submit" value="LogIn" class="btn btn-danger"  >
+  <br>
+  
+     <a href="signUp">New User? Register Here</a>
+     <br>
+  
+  </form>
